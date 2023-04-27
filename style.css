@@ -99,9 +99,56 @@ body {
 }
 /* experience section end ------ */
 
+/* testimonial section start ------- */
+.testimonial_section{
+    padding-top: 100px;
+    background: antiquewhite;
+    padding-bottom: 100px;
+}
+.testimonial_section h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.slider_wrapper{
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    padding: 20px;
+}
+
+.checked {  
+    color : #ffbf1b;
+    font-size : 30px;  
+}  
+.unchecked {  
+    font-size : 30px;  
+}  
+/* testimonial section end ------- */
 
 
-
+.testimonial_section .owl-prev, .testimonial_section .owl-next{
+  position: absolute;
+  top: 36%;
+}
+.testimonial_section .owl-prev{
+  left: 0px;
+  background-image: url(images/arrow.png) !important;
+  width: 38px;
+  height: 38px;
+  background-size: 37px !important;
+}
+.testimonial_section .owl-next{
+  right: 0px;
+  background-image: url(images/arrow.png) !important;
+  width: 38px;
+  height: 38px;
+  background-size: 37px !important;
+}
 
 
 
